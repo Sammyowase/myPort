@@ -17,10 +17,11 @@ export const Hero = () => {
             Contact Me
           </a>
 
-          <a href="mailto:samuelowase02@gmail.com" className={`${styles.contactBtn}`}>
-            View CV
+          <a href="./cv.pdf" className={`${styles.contactBtn}`}>
+          Download Cv
           </a>
         </div>
+       
       </div>
       <img
         src={getImageUrl("hero/IMG_20240119_144414_with_border_radius.png")}
